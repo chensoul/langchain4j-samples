@@ -1,33 +1,22 @@
-package cc.chensoul.ai;
+package io.zhijun.ai;
 
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.chat.listener.ChatModelErrorContext;
 import dev.langchain4j.model.chat.listener.ChatModelListener;
 import dev.langchain4j.model.chat.listener.ChatModelRequestContext;
 import dev.langchain4j.model.chat.listener.ChatModelResponseContext;
-import dev.langchain4j.model.openai.OpenAiChatModel;
+import dev.langchain4j.model.ollama.OllamaChatModel;
 import lombok.extern.slf4j.Slf4j;
 
 import java.time.Duration;
 import java.util.List;
 
-public class LangChainChatDemo {
+public class ChatDemo {
 
     public static void main(String[] args) {
-//        ChatModel model = OpenAiChatModel.builder()
-//                .apiKey(System.getenv("OPENAI_API_KEY"))
-//                .build();
-
-//        ChatModel model = OpenAiChatModel.builder()
-//                .baseUrl("https://dashscope.aliyuncs.com/compatible-mode/v1")
-//                .apiKey(System.getenv("DASHSCOPE_API_KEY"))
-//                .modelName("qwen-turbo")
-//                .build();
-
-        ChatModel model = OpenAiChatModel.builder()
-                .baseUrl("https://dashscope.aliyuncs.com/compatible-mode/v1")
-                .apiKey(System.getenv("DASHSCOPE_API_KEY"))
-                .modelName("qwen-turbo")
+        ChatModel model = OllamaChatModel.builder()
+                .baseUrl(System.getenv("OLLAMA_BASE_URL"))
+                .modelName("llama3.1")
                 .temperature(0.3)
                 .maxRetries(1)
                 .timeout(Duration.ofSeconds(60))

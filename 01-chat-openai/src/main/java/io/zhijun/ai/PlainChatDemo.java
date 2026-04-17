@@ -1,4 +1,4 @@
-package cc.chensoul.ai;
+package io.zhijun.ai;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

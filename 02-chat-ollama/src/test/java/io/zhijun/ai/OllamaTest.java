@@ -1,4 +1,4 @@
-package cc.chensoul.ai;
+package io.zhijun.ai;
 
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.ollama.OllamaChatModel;
@@ -8,10 +8,10 @@ import org.testcontainers.utility.DockerImageName;
 
 import java.time.Duration;
 
-import static cc.chensoul.ai.util.AbstractOllamaInfrastructure.ollama;
-import static cc.chensoul.ai.util.AbstractOllamaInfrastructure.ollamaBaseUrl;
-import static cc.chensoul.ai.util.OllamaImage.OLLAMA_IMAGE;
-import static cc.chensoul.ai.util.OllamaImage.OLLAMA_MODEL;
+import static io.zhijun.ai.util.AbstractOllamaInfrastructure.ollama;
+import static io.zhijun.ai.util.AbstractOllamaInfrastructure.ollamaBaseUrl;
+import static io.zhijun.ai.util.OllamaImage.OLLAMA_IMAGE;
+import static io.zhijun.ai.util.OllamaImage.OLLAMA_MODEL;
 
 public class OllamaTest {
 

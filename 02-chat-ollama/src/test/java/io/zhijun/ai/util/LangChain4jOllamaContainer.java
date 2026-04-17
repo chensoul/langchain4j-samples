@@ -1,4 +1,4 @@
-package cc.chensoul.ai.util;
+package io.zhijun.ai.util;
 
 import com.github.dockerjava.api.command.InspectContainerResponse;
 import org.slf4j.Logger;

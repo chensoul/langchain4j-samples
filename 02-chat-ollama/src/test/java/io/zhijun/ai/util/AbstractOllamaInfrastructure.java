@@ -1,6 +1,6 @@
-package cc.chensoul.ai.util;
+package io.zhijun.ai.util;
 
-import static cc.chensoul.ai.util.OllamaImage.OLLAMA_IMAGE;
+import static io.zhijun.ai.util.OllamaImage.OLLAMA_IMAGE;
 import static dev.langchain4j.internal.Utils.isNullOrEmpty;
 
 public class AbstractOllamaInfrastructure {

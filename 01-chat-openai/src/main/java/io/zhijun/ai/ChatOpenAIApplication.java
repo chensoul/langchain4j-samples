@@ -1,4 +1,4 @@
-package cc.chensoul.ai;
+package io.zhijun.ai;
 
 import dev.langchain4j.model.chat.ChatModel;
 import org.springframework.boot.CommandLineRunner;
@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class ChatOllamaApplication {
+public class ChatOpenAIApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ChatOllamaApplication.class, args);
+        SpringApplication.run(ChatOpenAIApplication.class, args);
     }
 
     @Bean
