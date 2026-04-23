@@ -5,15 +5,14 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.zhijun.ai</groupId>
+        <groupId>io.zhijun.langchain4j</groupId>
         <artifactId>langchain4j-samples</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>io.zhijun</groupId>
+    <groupId>io.zhijun.langchain4j</groupId>
     <artifactId>01-chat-openai</artifactId>
-    <version>1.0-SNAPSHOT</version>
 
     <dependencies>
         <dependency>

@@ -1,6 +1,6 @@
-package io.zhijun.ai.util;
+package io.zhijun.langchain4j.util;
 
-import static io.zhijun.ai.util.OllamaImage.OLLAMA_IMAGE;
+import static io.zhijun.langchain4j.util.OllamaImage.OLLAMA_IMAGE;
 import static dev.langchain4j.internal.Utils.isNullOrEmpty;
 
 public class AbstractOllamaInfrastructure {

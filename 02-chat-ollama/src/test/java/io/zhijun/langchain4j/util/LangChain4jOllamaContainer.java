@@ -1,4 +1,4 @@
-package io.zhijun.ai.util;
+package io.zhijun.langchain4j.util;
 
 import com.github.dockerjava.api.command.InspectContainerResponse;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package io.zhijun.ai;
+package io.zhijun.langchain4j;
 
 import dev.langchain4j.community.model.dashscope.WanxImageModel;
 import dev.langchain4j.data.image.Image;

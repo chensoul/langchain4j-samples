@@ -1,4 +1,4 @@
-package io.zhijun.ai;
+package io.zhijun.langchain4j;
 
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.chat.listener.ChatModelErrorContext;
